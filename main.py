@@ -5,6 +5,7 @@ import two_sum
 # import group_anagrams
 # from top_k_frequent import topKFrequent
 from stack_space import sum
+from buy_sell_stock import maxProfit
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -12,9 +13,9 @@ from stack_space import sum
 # two_sum.twoSum(nums, target)
 
 # 2: Best Time to Buy and Sell Stock
-# prices = [7,1,5,3,6,4]
-# prices = [7,6,4,3,1]
-# buy_sell_stock.maxProfit(prices)
+prices = [7, 1, 5, 3, 6, 4]
+prices = [7, 6, 4, 3, 1]
+maxProfit(prices)
 
 # 3: Contains Duplicate
 # input = [3,3,3]
@@ -34,4 +35,5 @@ from stack_space import sum
 # k = 2
 # topKFrequent(nums, k)
 
-print(sum(4))
+# 7: Stack Space
+# print(sum(4))
