@@ -4,11 +4,12 @@ import two_sum
 # import valid_anagram
 # import group_anagrams
 # from top_k_frequent import topKFrequent
+from stack_space import sum
 
 # 1: TwoSum
-nums = [2, 7, 6, 15]
-target = 9
-two_sum.twoSum(nums, target)
+# nums = [2, 7, 6, 15]
+# target = 9
+# two_sum.twoSum(nums, target)
 
 # 2: Best Time to Buy and Sell Stock
 # prices = [7,1,5,3,6,4]
@@ -32,3 +33,5 @@ two_sum.twoSum(nums, target)
 # nums = [2, 3, 3, 1, 1, 1]
 # k = 2
 # topKFrequent(nums, k)
+
+print(sum(4))
