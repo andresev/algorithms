@@ -1,11 +1,11 @@
-import two_sum
+# import two_sum
 # import buy_sell_stock
 # import containsDuplicate
 # import valid_anagram
 # import group_anagrams
 # from top_k_frequent import topKFrequent
-from stack_space import sum
-from buy_sell_stock import maxProfit
+# from buy_sell_stock import maxProfit
+from product_except_self import productExceptSelf
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -13,9 +13,9 @@ from buy_sell_stock import maxProfit
 # two_sum.twoSum(nums, target)
 
 # 2: Best Time to Buy and Sell Stock
-prices = [7, 1, 5, 3, 6, 4]
-prices = [7, 6, 4, 3, 1]
-maxProfit(prices)
+# prices = [7, 1, 5, 3, 6, 4]
+# prices = [7, 6, 4, 3, 1]
+# maxProfit(prices)
 
 # 3: Contains Duplicate
 # input = [3,3,3]
@@ -35,5 +35,6 @@ maxProfit(prices)
 # k = 2
 # topKFrequent(nums, k)
 
-# 7: Stack Space
-# print(sum(4))
+# 7. Product of Array Except Self
+nums = [1, 2, 3, 4]
+productExceptSelf(nums)
