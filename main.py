@@ -1,11 +1,12 @@
 # import two_sum
 # import buy_sell_stock
-# import containsDuplicate
+
 # import valid_anagram
 # import group_anagrams
+from contains_duplicate import containsDuplicate
 # from top_k_frequent import topKFrequent
 # from buy_sell_stock import maxProfit
-from product_except_self import productExceptSelf
+# from product_except_self import productExceptSelf
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -18,8 +19,8 @@ from product_except_self import productExceptSelf
 # maxProfit(prices)
 
 # 3: Contains Duplicate
-# input = [3,3,3]
-# containsDuplicate.containsDuplicate(input)
+input = [3, 3, 3]
+containsDuplicate(input)
 
 # 4: Valid Anagram
 # s = "anagram"
@@ -36,5 +37,5 @@ from product_except_self import productExceptSelf
 # topKFrequent(nums, k)
 
 # 7. Product of Array Except Self
-nums = [1, 2, 3, 4]
-productExceptSelf(nums)
+# nums = [1, 2, 3, 4]
+# productExceptSelf(nums)
