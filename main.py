@@ -8,6 +8,7 @@ from contains_duplicate import containsDuplicate
 # from buy_sell_stock import maxProfit
 # from product_except_self import productExceptSelf
 from valid_anagram import isAnagram
+from valid_parentheses import validParetheses
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -24,9 +25,9 @@ from valid_anagram import isAnagram
 # containsDuplicate(input)
 
 # 4: Valid Anagram
-s = "anagram"
-t = "nagaram"
-isAnagram(s, t)
+# s = "anagram"
+# t = "nagaram"
+# isAnagram(s, t)
 
 # 5: Group Anagram
 # strs = ["eat","tea","tan","ate","nat","bat"]
@@ -40,3 +41,7 @@ isAnagram(s, t)
 # 7. Product of Array Except Self
 # nums = [1, 2, 3, 4]
 # productExceptSelf(nums)
+
+# 8. Valid Parentheses
+s = "()"
+validParetheses(s)
