@@ -1,12 +1,13 @@
+
+from contains_duplicate import containsDuplicate
 # import two_sum
 # import buy_sell_stock
-
 # import valid_anagram
 # import group_anagrams
-from contains_duplicate import containsDuplicate
 # from top_k_frequent import topKFrequent
 # from buy_sell_stock import maxProfit
 # from product_except_self import productExceptSelf
+from valid_anagram import isAnagram
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -19,13 +20,13 @@ from contains_duplicate import containsDuplicate
 # maxProfit(prices)
 
 # 3: Contains Duplicate
-input = [3, 3, 3]
-containsDuplicate(input)
+# input = [3, 3, 3]
+# containsDuplicate(input)
 
 # 4: Valid Anagram
-# s = "anagram"
-# t = "nagaram"
-# valid_anagram.isAnagram(s, t)
+s = "anagram"
+t = "nagaram"
+isAnagram(s, t)
 
 # 5: Group Anagram
 # strs = ["eat","tea","tan","ate","nat","bat"]
