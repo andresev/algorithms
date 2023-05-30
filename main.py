@@ -1,5 +1,5 @@
 
-from contains_duplicate import containsDuplicate
+# from contains_duplicate import containsDuplicate
 # import two_sum
 # import buy_sell_stock
 # import valid_anagram
@@ -7,8 +7,9 @@ from contains_duplicate import containsDuplicate
 # from top_k_frequent import topKFrequent
 # from buy_sell_stock import maxProfit
 # from product_except_self import productExceptSelf
-from valid_anagram import isAnagram
-from valid_parentheses import validParetheses
+# from valid_anagram import isAnagram
+# from valid_parentheses import validParetheses
+from min_stack import MinStack
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -43,5 +44,14 @@ from valid_parentheses import validParetheses
 # productExceptSelf(nums)
 
 # 8. Valid Parentheses
-s = "()"
-validParetheses(s)
+# s = "()"
+# validParetheses(s)
+
+# 9. MinStack
+# minStack = MinStack()
+# minStack.push(3)
+# minStack.push(4)
+# minStack.push(10)
+# minStack.push(1)
+# minStack.push(2)
+# print(minStack.getMin())
