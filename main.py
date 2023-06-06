@@ -10,6 +10,7 @@
 # from valid_anagram import isAnagram
 # from valid_parentheses import validParetheses
 # from min_stack import MinStack
+from generate_parenthesis import generateParenthesis
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -55,3 +56,7 @@
 # minStack.push(1)
 # minStack.push(2)
 # print(minStack.getMin())
+
+# 10. Generate Parenthesis
+n = 3
+generateParenthesis(3)
