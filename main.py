@@ -11,6 +11,7 @@
 # from valid_parentheses import validParetheses
 # from min_stack import MinStack
 from generate_parenthesis import generateParenthesis
+from missing_sum import missingNumber
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -60,3 +61,7 @@ from generate_parenthesis import generateParenthesis
 # 10. Generate Parenthesis
 n = 3
 generateParenthesis(3)
+
+# 11. Missing nums
+nums = [0, 2, 3]
+missingNumber(nums)
