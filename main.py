@@ -12,6 +12,7 @@
 # from min_stack import MinStack
 from generate_parenthesis import generateParenthesis
 from missing_sum import missingNumber
+from happy_number import isHappy
 
 # 1: TwoSum
 # nums = [2, 7, 6, 15]
@@ -59,9 +60,13 @@ from missing_sum import missingNumber
 # print(minStack.getMin())
 
 # 10. Generate Parenthesis
-n = 3
-generateParenthesis(3)
+# n = 3
+# generateParenthesis(3)
 
 # 11. Missing nums
-nums = [0, 2, 3]
-missingNumber(nums)
+# nums = [0, 2, 3]
+# missingNumber(nums)
+
+# 12 Happy numbers
+n = 4
+isHappy(n)
